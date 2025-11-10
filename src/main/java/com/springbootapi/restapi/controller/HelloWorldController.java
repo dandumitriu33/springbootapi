@@ -1,5 +1,6 @@
 package com.springbootapi.restapi.controller;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.Collections;
@@ -8,9 +9,17 @@ import java.util.Map;
 @RestController
 public class HelloWorldController {
 
+    @Value("${env}")
+    private String environment;
+
     @GetMapping("/hello")
     public Map<String, String> sayHello() {
         // Return a JSON object with "message": "Hello world"
         return Collections.singletonMap("message", "Hello world");
+    }
+
+    @GetMapping("/environment")
+    public Map<String, String> getEnvironment() {
+        return Collections.singletonMap("message", environment);
     }
 }
