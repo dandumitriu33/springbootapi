@@ -1,0 +1,29 @@
+2025-11-11 11:00:04.953 [main] INFO  c.s.restapi.SpringbootapiApplication - Starting SpringbootapiApplication using Java 25.0.1 with PID 2620 (C:\Users\dan\Documents\002-projects\springbootapi\target\classes started by dan in C:\Users\dan\Documents\002-projects\springbootapi)
+2025-11-11 11:00:04.954 [main] INFO  c.s.restapi.SpringbootapiApplication - The following 1 profile is active: "dev"
+2025-11-11 11:00:05.515 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-11 11:00:05.526 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 11:00:05.529 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-11 11:00:05.529 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 11:00:05.562 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-11 11:00:05.562 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 578 ms
+2025-11-11 11:00:05.777 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 11:00:05.800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 11:00:05.806 [main] INFO  c.s.restapi.SpringbootapiApplication - Started SpringbootapiApplication in 1.261 seconds (process running for 1.472)
+2025-11-11 11:00:14.169 [http-nio-8080-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 11:00:14.169 [http-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-11 11:00:14.170 [http-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-11 11:00:14.188 [http-nio-8080-exec-5] INFO  c.s.r.c.HelloWorldController - Method sayHello reached.
+2025-11-11 11:00:15.216 [http-nio-8080-exec-7] INFO  c.s.r.c.HelloWorldController - Method sayHello reached.
+2025-11-11 11:00:15.814 [http-nio-8080-exec-2] INFO  c.s.r.c.HelloWorldController - Method sayHello reached.
+2025-11-11 11:00:16.487 [http-nio-8080-exec-3] INFO  c.s.r.c.HelloWorldController - Method getEnvironment reached.
+2025-11-11 11:00:17.138 [http-nio-8080-exec-4] INFO  c.s.r.c.HelloWorldController - Method getEnvironment reached.
+2025-11-11 11:01:26.655 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 11:01:26.660 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-11 11:03:47.415 [main] INFO  c.s.r.c.HelloWorldControllerTest - Starting HelloWorldControllerTest using Java 25.0.1 with PID 3184 (started by dan in C:\Users\dan\Documents\002-projects\springbootapi)
+2025-11-11 11:03:47.416 [main] INFO  c.s.r.c.HelloWorldControllerTest - The following 1 profile is active: "dev"
+2025-11-11 11:03:47.953 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-11-11 11:03:47.953 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-11-11 11:03:47.953 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-11-11 11:03:47.977 [main] INFO  c.s.r.c.HelloWorldControllerTest - Started HelloWorldControllerTest in 0.943 seconds (process running for 1.652)
+2025-11-11 11:03:48.371 [main] INFO  c.s.r.c.HelloWorldController - Method sayHello reached.
+2025-11-11 11:03:48.435 [main] INFO  c.s.r.c.HelloWorldController - Method getEnvironment reached.
