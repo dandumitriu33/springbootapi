@@ -1,2 +1,7 @@
 # springbootapi
-Educational project. Spring Boot API backend.
+Educational project. Spring Boot API backend.  
+
+Environments: dev, test, stage, prod  
+Unit tests with JUnit  
+Logging with Logback and slf4j  
+
