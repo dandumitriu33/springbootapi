@@ -12,15 +12,15 @@ public class Car {
 
     private String make;
     private String model;
-    private int year;
+    private int manufactureYear;
     private String vin;
 
     public Car() {}
 
-    public Car(String make, String model, int year, String vin) {
+    public Car(String make, String model, int manufactureYear, String vin) {
         this.make = make;
         this.model = model;
-        this.year = year;
+        this.manufactureYear = manufactureYear;
         this.vin = vin;
     }
 
@@ -33,10 +33,10 @@ public class Car {
     public String getModel() { return model; }
     public void setModel(String model) { this.model = model; }
 
-    public int getYear() { return year; }
-    public void setYear(int year) { this.year = year; }
-
     public String getVin() { return vin; }
     public void setVin(String vin) { this.vin = vin; }
+
+    public int getManufactureYear() { return manufactureYear; }
+    public void setManufactureYear(int manufactureYear) { this.manufactureYear = manufactureYear; }
 }
 

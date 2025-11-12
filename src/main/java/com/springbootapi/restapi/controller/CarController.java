@@ -24,7 +24,7 @@ public class CarController {
 
     @PostMapping
     public ResponseEntity<Car> create(@RequestBody Car car) {
-        logger.info("Creating car: {} {} {}", car.getMake(), car.getModel(), car.getYear());
+        logger.info("Creating car: {} {} {}", car.getMake(), car.getModel(), car.getManufactureYear());
         Car saved = carService.create(car);
         return ResponseEntity.created(URI.create("/api/cars/" + saved.getId())).body(saved);
     }
