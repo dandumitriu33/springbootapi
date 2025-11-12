@@ -7,10 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import com.springbootapi.restapi.model.Car;
-import org.springframework.context.annotation.Import;
 
 @DataJpaTest
-@Import(com.springbootapi.restapi.config.DatabaseConfig.class)
 class CarRepositoryTest {
 
     @Autowired

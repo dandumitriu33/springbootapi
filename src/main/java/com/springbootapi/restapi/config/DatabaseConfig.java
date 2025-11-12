@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
-@Configuration
+//@Configuration
 public class DatabaseConfig {
 
     @Bean
@@ -39,4 +39,3 @@ public class DatabaseConfig {
         return new JdbcTemplate(dataSource);
     }
 }
-
