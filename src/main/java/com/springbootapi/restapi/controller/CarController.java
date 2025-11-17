@@ -3,6 +3,7 @@ package com.springbootapi.restapi.controller;
 import java.net.URI;
 import java.util.List;
 
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
@@ -23,7 +24,7 @@ public class CarController {
     }
 
     @PostMapping
-    public ResponseEntity<Car> create(@RequestBody Car car) {
+    public ResponseEntity<Car> create(@RequestBody @Valid Car car) {
         logger.info("Creating car: {} {} {}", car.getMake(), car.getModel(), car.getManufactureYear());
         Car saved = carService.create(car);
         return ResponseEntity.created(URI.create("/api/cars/" + saved.getId())).body(saved);

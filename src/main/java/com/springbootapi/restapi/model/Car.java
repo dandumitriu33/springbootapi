@@ -1,6 +1,10 @@
 package com.springbootapi.restapi.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "cars")
@@ -10,9 +14,18 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank(message = "Make is required")
     private String make;
+
+    @NotBlank(message = "Model is required")
     private String model;
+
+    @Min(value = 1886, message = "Year must be after the invention of automobiles (1886)")
+    @Max(value = 2050, message = "Year cannot be in the far future")
     private int manufactureYear;
+
+    @NotBlank(message = "VIN is required")
+    @Size(min = 5, max = 20, message = "VIN must be between 5 and 20 characters")
     private String vin;
 
     public Car() {}
