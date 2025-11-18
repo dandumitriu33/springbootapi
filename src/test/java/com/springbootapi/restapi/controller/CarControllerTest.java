@@ -41,7 +41,7 @@ class CarControllerTest {
               "make": "",
               "model": "Civic",
               "manufactureYear": 1000,
-              "vin": ""
+              "vin": "ab"
             }
             """;
 
@@ -50,7 +50,7 @@ class CarControllerTest {
                         .content(invalidJson))
                 .andExpect(status().isBadRequest())
                 .andExpect(jsonPath("$.make").value("Make is required"))
-                .andExpect(jsonPath("$.vin").value("VIN is required"))
+                .andExpect(jsonPath("$.vin").value("VIN must be between 5 and 20 characters"))
                 .andExpect(jsonPath("$.manufactureYear").value("Year must be after the invention of automobiles (1886)"));
     }
 

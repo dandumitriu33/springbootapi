@@ -28,3 +28,45 @@ This generated password is for development use only. Your security configuration
 2025-11-18 16:19:56.670 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 2025-11-18 16:19:56.691 [main] INFO  c.s.r.controller.CarControllerTest - Started CarControllerTest in 1.845 seconds (process running for 2.616)
 2025-11-18 16:19:56.875 [main] INFO  c.s.restapi.controller.CarController - Creating car: Honda Civic 2025
+2025-11-18 16:30:41.266 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-11-18 16:30:41.296 [main] INFO  c.s.r.controller.CarControllerTest - Starting CarControllerTest using Java 25.0.1 with PID 5076 (started by dan in C:\Users\dan\Documents\002-projects\springbootapi)
+2025-11-18 16:30:41.297 [main] INFO  c.s.r.controller.CarControllerTest - The following 1 profile is active: "dev"
+2025-11-18 16:30:42.289 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c4047cde-30a3-4074-b7d6-9c9547a9c6f0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-18 16:30:42.608 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-18 16:30:42.718 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-11-18 16:30:42.718 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-11-18 16:30:42.720 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-11-18 16:30:42.737 [main] INFO  c.s.r.controller.CarControllerTest - Started CarControllerTest in 1.839 seconds (process running for 2.608)
+2025-11-18 16:32:36.299 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-11-18 16:32:36.328 [main] INFO  c.s.r.controller.CarControllerTest - Starting CarControllerTest using Java 25.0.1 with PID 3768 (started by dan in C:\Users\dan\Documents\002-projects\springbootapi)
+2025-11-18 16:32:36.328 [main] INFO  c.s.r.controller.CarControllerTest - The following 1 profile is active: "dev"
+2025-11-18 16:32:37.342 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f5df1867-23c7-41cc-b9f2-187945f5c662
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-18 16:32:37.648 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-18 16:32:37.751 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-11-18 16:32:37.751 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-11-18 16:32:37.752 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-11-18 16:32:37.770 [main] INFO  c.s.r.controller.CarControllerTest - Started CarControllerTest in 1.849 seconds (process running for 2.636)
+2025-11-18 16:33:04.440 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-11-18 16:33:04.468 [main] INFO  c.s.r.controller.CarControllerTest - Starting CarControllerTest using Java 25.0.1 with PID 11512 (started by dan in C:\Users\dan\Documents\002-projects\springbootapi)
+2025-11-18 16:33:04.468 [main] INFO  c.s.r.controller.CarControllerTest - The following 1 profile is active: "dev"
+2025-11-18 16:33:05.457 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3d4902e3-ac61-4039-a7de-1105546a8f16
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-18 16:33:05.759 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-18 16:33:05.861 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-11-18 16:33:05.861 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-11-18 16:33:05.862 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-11-18 16:33:05.881 [main] INFO  c.s.r.controller.CarControllerTest - Started CarControllerTest in 1.799 seconds (process running for 2.562)
